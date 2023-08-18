@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: #f4f7ff;
+}
+h1{
+    color: #1d2144;
+    width: 300px;
+    margin-left: 30%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 2rem;
+    
+}
+.swiper{
+    width: 700px;
+    height: 200px;
+    position: relative;
+}
+
+.swiper-slide{
+    border-radius: 10px;
+    border: 10px;
+    background: #fff;
+    padding: 25px 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    width: 400px;
+    gap: 20px;
+    align-items: center;
+    padding-top: 1rem;
+    border-radius: 10px;
+}
+.text h2{
+    color: #4a4c69;
+    font-size: 13px;
+
+}
+.text p{
+    font-size: 11px;
+    color: #464966;
+    width: 200px;
+}
+
+
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: -50px;
+}
+.main{
+    width:100%;
+    height: 100%;
+}

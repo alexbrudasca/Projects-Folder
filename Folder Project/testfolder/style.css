@@ -1,0 +1,24 @@
+/* fonts import*/
+
+/* basic classes */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #333;
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
